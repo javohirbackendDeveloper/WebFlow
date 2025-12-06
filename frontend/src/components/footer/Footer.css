@@ -1,0 +1,172 @@
+.footer {
+  background: #0e0e0e;
+  color: #fff;
+  padding: 50px 0 20px;
+  margin-top: 60px;
+}
+
+.footer-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-desc {
+  width: 320px;
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #cccccc;
+}
+
+/* Social Icons */
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #4da6ff;
+}
+
+/* Right Side */
+.footer-right h3 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 1px solid #333;
+  color: #bbbbbb;
+  font-size: 14px;
+}
+
+/* CTA BLOCK */
+.footer-cta {
+  width: 85%;
+  margin: auto;
+  background: #111;
+  padding: 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  border: 1px solid #333;
+}
+
+.cta-icon {
+  font-size: 80px;
+  color: #4da6ff;
+}
+
+.question-icon {
+  font-size: 80px;
+}
+
+.cta-text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.cta-text p {
+  width: 380px;
+  color: #cccccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  padding: 10px 22px;
+  background: #4da6ff;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #1e82e6;
+}
+
+/* --- Existing Footer Styles --- */
+
+.footer {
+  background: #0e0e0e;
+  color: #fff;
+  padding: 50px 0 20px;
+  margin-top: 60px;
+}
+
+.footer-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-desc {
+  width: 320px;
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #cccccc;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #4da6ff;
+}
+
+.footer-right h3 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 1px solid #333;
+  color: #bbbbbb;
+  font-size: 14px;
+}

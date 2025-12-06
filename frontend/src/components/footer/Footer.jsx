@@ -1,5 +1,4 @@
-import { FaTelegramPlane, FaInstagram, FaFacebookF } from "react-icons/fa";
-import { FaQuestionCircle } from "react-icons/fa";
+import * as FaIcons from "react-icons/fa";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
@@ -9,7 +8,7 @@ function Footer() {
       {/* CTA SECTION */}
       <div className="footer-cta">
         <div className="cta-icon">
-          <FaQuestionCircle className="question-icon" />
+          <FaIcons.FaQuestionCircle className="question-icon" />
         </div>
 
         <div className="cta-text">
@@ -41,7 +40,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTelegramPlane />
+              <FaIcons.FaTelegramPlane />
             </a>
 
             <a
@@ -50,7 +49,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram />
+              <FaIcons.FaInstagram />
             </a>
 
             <a
@@ -59,7 +58,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebookF />
+              <FaIcons.FaFacebookF />
             </a>
           </div>
         </div>
